@@ -1,0 +1,59 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 270px;
+
+    padding-top: 29px;
+}
+
+
+.header-logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--title-color);
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.header-nav__item {
+    position: relative;
+}
+
+.header-nav__link {
+    font-family: 'Segoe UI Bold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--title-color);
+    transition: all 250ms ease;
+}
+
+.header-nav__link:hover {
+    color: var(--accent-color);
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        transform:translateY(1px);
+        bottom: -4px;
+        width: 100%;
+        height: 4px;
+        background-color: var(--accent-color);
+    }
+}
+
+

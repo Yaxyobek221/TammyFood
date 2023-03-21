@@ -1,0 +1,155 @@
+.footer {
+    padding-top: 243px;
+    padding-bottom: 18px;
+    background-color: #232233;
+}
+
+.footer-wrap {
+    display: flex;
+    padding-bottom: 52px;
+    border-bottom: 1px solid white;
+}
+
+
+.footer-logo {
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--white-color);
+}
+
+.footer-text {
+    margin-bottom: 50px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--white-color);
+    max-width: 331px;
+}
+
+.social-wrap {
+    display: flex;
+    gap: 60px;
+    
+}
+
+.social-icon {
+    position: relative;
+    fill: var(--white-color);
+    transition: fill 250ms ease;
+}
+
+.social-icon:hover {
+    fill: var(--accent-color);
+}
+
+.social-icon:not(:last-child)::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+}
+
+
+// link
+
+.link {
+    margin-left: 113px;
+}
+
+.link-title {
+    margin-bottom: 11px;
+
+    font-family: var(--segoe-bold);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.link-list {
+    
+}
+
+.link-list__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.link-list__link {
+    font-family: var(--segoe-semi-bold);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+// mailing
+.mailing {
+    margin-left: 210px;
+}
+
+.mailing-title {
+    margin-bottom: 11px;
+
+    font-family: var(--segoe-bold);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.mailing-text {
+    margin-bottom: 33px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+    max-width: 315px;
+}
+
+.mailimg-form {
+    position: relative;
+}
+
+.email-input {
+    padding: 13px 52px 13px 18px;
+    width: 369px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+}
+
+.input-btn {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 52px;
+    height: 46px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--accent-color);
+}
+
+.copyright {
+    margin-top: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+}

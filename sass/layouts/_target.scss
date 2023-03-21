@@ -1,0 +1,96 @@
+.target {
+    position: relative;
+    padding-top: 98px;
+    padding-bottom: 191px;
+    background-image: url(../image/hero-bg.jpg);
+    overflow: hidden;
+}
+
+.target-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.target-img {
+    position: relative;
+}
+
+.ellipse {
+    position: absolute;
+    top: -191px;
+    left: 107px;
+}
+
+
+.our-target {
+    padding: 10px;
+    margin-bottom: 13px;
+    width: 109px;
+    border-radius: 4px;
+    background-color: #FFEFC8;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    color: var(--accent-color);
+}
+
+.target-title {
+    max-width: 565px;
+    margin-bottom: 50px;
+    font-family: var(--segoe-bold);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--title-color);
+}
+
+.target-text {
+    margin-bottom: 30px;
+    max-width: 536px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--main-text-color);
+}
+
+.target-btn {
+    padding: 16px 19px;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 6px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 12px;
+    color: #ffffff;
+}
+
+.target-round-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    border: none;
+    border-radius: 50%;
+    background-color: #FFEEC8;
+}
+
+.money {
+    position: absolute;
+    top: 41px;
+    left: 458px;
+}
+
+.deliver {
+    position: absolute;
+    bottom: 123px;
+    left: 487px;
+}
+
+.shield {
+    position: absolute;
+    bottom: -40px;
+    left: 457px;
+}

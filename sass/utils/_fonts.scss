@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Segoe UI Semibold', sans-serif;
+    font-display: swap;
+    src: url(../fonts/SegoeUISemibold.ttf) format(ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold', sans-serif;
+    font-display: swap;
+    src: url(../fonts/SegoeUIBold.ttf) format(ttf);
+    font-weight: 700px;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
